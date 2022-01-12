@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../images/background.jpg');
+    background-position: top;
+    background-size: cover;
+}
+.logar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logar a:hover {
+    color: rgb(158, 200, 255);
+    text-shadow: 2px 1px 3px #000;
+    transition: all ease 0.5s;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.formulario {
+    position: fixed;
+    display: none;
+    box-shadow: 1px 4px 33px 9px #000;
+    transition: all ease .9s;
+}
+.rigth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;  
+    background-position: top;
+    background-size: cover;         
+}
+.rigth {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.left {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;    
+}
+.left form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.icone-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #999;
+    border-radius: 30px;
+    padding: 8px 20px;
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.icone-usuario img {
+    width: 30px;
+    height: auto;
+}
+.fechar {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 333px;
+    margin-top: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#text-login {    
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#text-login,
+.text {
+    margin-bottom: 20px;
+}
+.text  {
+    margin-bottom: 28px;
+}
+#link-1  { 
+    margin-right: 15px;  
+}
+#link-1,
+#link-2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    color: #000;
+} 
+.left label {
+    display: block;
+}
+.left input {
+    margin-bottom: 18px;
+    padding: 7px 0px;
+    padding-left: 5px;
+}
+#email,
+#password {
+    width: 290px;
+    outline: 0;
+}
+#button {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background-image: linear-gradient(to right , rgb(178, 222, 240) , rgb(22, 95, 190));
+    cursor: pointer;
+}
+.with {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#button:hover {
+    background-image: linear-gradient(to left , rgb(178, 222, 240) , rgb(22, 95, 190));
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta img {
+    width: 20px;
+    height: auto;
+}
+.face img {
+    width: 7px;
+    height: auto;
+}
+.twit img {
+    width: 12px;
+    height: auto;
+}
+.face,
+.insta,
+.twit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgb(124, 116, 116);
+    cursor: pointer;
+}
+.face {
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+.insta {
+    padding: 5px;
+    border-radius: 50px;
+}
+.twit {
+    padding: 10px 8px;
+    border-radius: 50px;
+}
+.face:hover, 
+.insta:hover,
+.twit:hover {
+    background-image: linear-gradient(to right , rgb(178, 222, 240) , rgb(22, 95, 190));
+}
+.linha {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(124, 116, 116);
+    margin-left: 10px;
+}
+.error {
+    font-size: 16px;
+    color: #f00;
+    margin-top: -18px;
+    margin-bottom: 16px;
+}
+
+/* Responsividade */
+
+@media (max-width: 812px){
+    .icone-usuario {
+        border:solid #fff;
+    }
+    .fechar {
+        margin-left: 0;
+        margin-bottom: 56px;
+    }
+    .formulario {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .left {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right , rgb(178, 222, 240) , rgb(22, 95, 190));
+    }
+    .rigth {
+        display: none;
+    }
+}
