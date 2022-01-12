@@ -12,3 +12,4 @@ Acesse clicando ➡️ [aqui.](https://ricardo-dev-1988.github.io/validador-de-f
 
 ![1](https://user-images.githubusercontent.com/93559261/148689645-6ed71b05-a16f-44d4-a72f-ec05151745d5.png)
 ![2](https://user-images.githubusercontent.com/93559261/148689650-ba885e65-ff0e-4fe3-9048-0d1dbf83f1c4.png)
+![3](https://user-images.githubusercontent.com/93559261/149063134-fd5f4a93-8ebb-43bb-8604-f3992409e5a4.png)
